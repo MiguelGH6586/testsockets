@@ -1,0 +1,8 @@
+{
+    "name": "Backend",
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "backend_sockets",
+    "shutdownAction": "none",
+    "workspaceFolder": "/usr/src/backend",
+    "extensions": ["ms-python.python", "mongodb.mongodb-vscode", "pkief.material-icon-theme"]
+}
